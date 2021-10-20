@@ -4,7 +4,7 @@ function MainContent(): JSX.Element {
   return (
     <main>
       <JournalEntry
-        title={"What Am I Eating Today!"}
+        title={"What Am I Eating Today"}
         tags={["food", "foodie", "pasta"]}
         body={
           "Today I am eating tortellini with butter and sage and lots of parmesan"
