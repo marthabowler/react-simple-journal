@@ -4,8 +4,25 @@ import JournalEntry from "./JournalEntry";
 function MainContent(): JSX.Element {
   return (
     <main>
-      <FixedEntry />
-      <FixedEntry />
+      <JournalEntry
+        title= {"What Am I Eating Today"}
+        tags={["food", "foodie", "pasta"]}
+        body={"Today I am eating tortellini with butter and sage and lots of parmesan"}
+        views= {0}
+        likes={0}
+        postDate= {{month: "October", day:20, year: 2021}}
+       />
+
+      <JournalEntry
+        title= {"What is the weather like today"}
+        tags={["weather", "bored", "London"]}
+        body={"Today it is raining so much the gods hate me"}
+        views= {0}
+        likes={0}
+        postDate= {{month: "Septemver", day:27, year: 2012}}
+        />
+
+
       <JournalEntry
         title={"Discovering React components"}
         tags={["react", "components", "reusability"]}
